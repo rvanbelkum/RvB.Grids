@@ -10,7 +10,7 @@
 	<ItemGroup>
 		<ProjectReference Include="..\RvB.Collections\RvB.Collections.csproj" />
 		<ProjectReference Include="..\RvB.Graphs\RvB.Graphs.csproj" />
-		<ProjectReference Include="..\RvB.Common\RvB.Spans\RvB.Spans.csproj" />
+		<ProjectReference Include="..\RvB.Linq\RvB.Linq.csproj" />
 	</ItemGroup>
 
 </Project>
