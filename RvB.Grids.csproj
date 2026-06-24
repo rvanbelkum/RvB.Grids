@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net10.0</TargetFrameworks>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\RvB.Collections\RvB.Collections.csproj" />
+		<ProjectReference Include="..\RvB.Graphs\RvB.Graphs.csproj" />
+		<ProjectReference Include="..\RvB.Common\RvB.Spans\RvB.Spans.csproj" />
+	</ItemGroup>
+
+</Project>
