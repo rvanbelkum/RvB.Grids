@@ -5,17 +5,32 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+
+		<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+		<Title>Various grid implementations</Title>
+		<Authors>rvanbelkum</Authors>
+		<Description>Various grid implementations</Description>
+		<PackageProjectUrl>https://github.com/rvanbelkum/RvB.Grids</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/rvanbelkum/RvB.Grids</RepositoryUrl>
+		<NeutralLanguage>en</NeutralLanguage>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://licenses.nuget.org/MIT</PackageProjectUrl>
+		<PackageReadmeFile>readme.md</PackageReadmeFile>
+		<PackageVersion>1.0.0</PackageVersion>
+		<AssemblyVersion>1.0.0.0</AssemblyVersion>
+		<FileVersion>1.0.0.0</FileVersion>
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <None Remove=".gitattributes" />
-	  <None Remove=".gitignore" />
+		<None Remove=".gitattributes" />
+		<None Remove=".gitignore" />
+		<None Include="readme.md" Pack="true" PackagePath="\" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\RvB.Collections\RvB.Collections.csproj" />
-		<ProjectReference Include="..\RvB.Graphs\RvB.Graphs.csproj" />
-		<ProjectReference Include="..\RvB.Linq\RvB.Linq.csproj" />
+		<PackageReference Include="RvB.Collections" Version="1.0.0" />
+		<PackageReference Include="RvB.Graphs" Version="1.0.0" />
+		<PackageReference Include="RvB.Linq" Version="1.0.1" />
 	</ItemGroup>
 
 </Project>
