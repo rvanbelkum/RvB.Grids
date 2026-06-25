@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="../RvB.Collections/RvB.Collections.csproj" />
+  <Project Path="../RvB.Graphs/RvB.Graphs.csproj" />
+  <Project Path="../RvB.Linq/RvB.Linq.csproj" />
+  <Project Path="RvB.Grids.csproj" />
+</Solution>
